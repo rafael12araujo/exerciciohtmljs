@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>integrando html e js></title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <nav>
+        <div class="container">
+        <h1>calculadora</h1>
+        <h2>Numeros</h2>
+        <form id="form-confirm">
+            <label for="A"><b>valor-A</b></label>/>
+            <input type="number" id="valor-A" required placeholder="Digite o valor A" />
+            <label for="B"><b>Valor-B</b></label>/>
+            <input type="number" id="Valor-B" required placeholder="Digite o valor B" />
+            <p class="error-message">
+                O valor B precisa ser maior que o valor A!
+            </p>
+                <button type="submit">validar</button>
+        </form>
+        <p class="succes-message"></p>
+    </div>
+    </nav>
+    <script src="./main.js"></script>
+    </body>
+</html>
